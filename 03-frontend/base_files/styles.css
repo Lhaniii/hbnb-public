@@ -16,9 +16,15 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #ff9800;
     color: #fff;
     padding: 1rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 nav a {
@@ -29,4 +35,12 @@ nav a {
 
 main {
     padding: 2rem;
+}
+
+footer {
+    background-color: #ff9800;
+    color: #fff;
+    align-items: flex-end;
+    text-align: center;
+    padding: 1rem;
 }
